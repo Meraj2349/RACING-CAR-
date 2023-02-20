@@ -1,0 +1,15 @@
+﻿  main.cpp
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(21,51): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(90,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(90,21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(91,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(91,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(92,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(92,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(93,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(93,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(94,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(94,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(99,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(100,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  carracing.vcxproj -> C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\x64\Debug\carracing.exe
