@@ -33,15 +33,19 @@ int gameOver()
 {
 	Texture gameover, troll;
 	if (!gameover.loadFromFile("over.png")) { cout << "over\n"; }
-	if (!troll.loadFromFile("troll.png")) { cout << "troll\n"; }
+	//if (!troll.loadFromFile("troll.png")) { cout << "troll\n"; }
 	Sprite Gameover(gameover);
-	Sprite Troll(troll);
-	Troll.setPosition(10, 350);
+	//Sprite Troll(troll);
+	//Troll.setPosition(10, 350);
+	
+	//sound 
 	SoundBuffer gameOver;
 	gameOver.loadFromFile("crash.wav");
 	Sound GameOver;
 	GameOver.setBuffer(gameOver);
+
 	GameOver.play();
+
 	while (window.isOpen())
 	{
 		Event event;
@@ -58,7 +62,7 @@ int gameOver()
 		window.clear();
 		window.draw(Gameover);
 		window.draw(text);
-		window.draw(Troll);
+		//window.draw(Troll);
 		window.display();
 	}
 	return 0;
@@ -89,8 +93,8 @@ int main()
 	if (!racer.loadFromFile("racer.png")) {cout << "racer loding error!";}
 	if (!obs1.loadFromFile("obs1.png"))   {cout << "obs1 loding error!";}
 	if (!obs2.loadFromFile("obs2.png"))   {cout << "obs2 loding error!";}
-	if (!obs3.loadFromFile("obs3.png"))   {	cout << "obs3 loding error!";}
-	if (!obs4.loadFromFile("obs4.png")) { cout << "obs4 loding error!"; }
+	//if (!obs3.loadFromFile("obs3.png"))   {	cout << "obs3 loding error!";}
+	//if (!obs4.loadFromFile("obs4.png")) { cout << "obs4 loding error!"; }
 	
 	sf::Sprite Background(background), Background1(background), Racer(racer), Obs1(obs1), Obs2(obs2);// Obs3(obs3), Obs4(obs4);
 	double RacerX, RacerY, Obs1X, Obs1Y, Obs2X, Obs2Y;// Obs3X, Obs3Y, Obs4X, Obs4Y;
@@ -141,8 +145,8 @@ int main()
 			BackgroundY1 = 0;
 			BackgroundY2 = BackgroundY1 - 500;
 		}
-		BackgroundY1 += 0.1;
-		BackgroundY2 += 0.1;
+		BackgroundY1 += 0.2;
+		BackgroundY2 += 0.2;
 
 		//Set Obs LOOP
 		if (Obs1Y > SCREEN_HEIGH)
@@ -168,9 +172,9 @@ int main()
 
 
 		//Game level
-		if (score > 10 && score < 18) { gameSpeed = 0.4; }
-		if (score > 18 && score < 25) { gameSpeed = 0.5; }
-		if (score > 25 && score < 35) { gameSpeed = 0.6; }
+		if (score > 50 && score < 100) { gameSpeed = 0.4; }
+		if (score > 100 && score < 150) { gameSpeed =0.5; }
+		if (score > 150&& score < 200) { gameSpeed  =0.6; }
 
 		//Cre;ate event to handle input from keyboard
 		Event event;
@@ -182,19 +186,19 @@ int main()
 			{
 				if (event.key.code == sf::Keyboard::Left)
 				{
-					if (RacerX > borderLeft) { RacerX = RacerX - 10; }
+					if (RacerX > borderLeft) { RacerX = RacerX - 30; }
 				}
 				if (event.key.code == sf::Keyboard::Right)
 				{
-					if (RacerX < borderRight) { RacerX = RacerX + 10; }
+					if (RacerX < borderRight) { RacerX = RacerX + 30; }
 				}
 				if (event.key.code == sf::Keyboard::Up)
 				{
-					if (RacerY > 0) { RacerY = RacerY - 10; }
+					if (RacerY > 0) { RacerY = RacerY - 30; }
 				}
 				if (event.key.code == sf::Keyboard::Down)
 				{
-					if (RacerY < SCREEN_HEIGH - 70) { RacerY = RacerY + 10; }
+					if (RacerY < SCREEN_HEIGH - 70) { RacerY = RacerY + 0; }
 				}
 			}
 		}
