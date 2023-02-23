@@ -137,7 +137,7 @@ int main()
 
 
 
-		//Creat scrolling background
+		//Creat scrolling background movement 
 		Background.setPosition(0, BackgroundY1);
 		Background1.setPosition(0, BackgroundY2);
 		if (BackgroundY2 > 0)
