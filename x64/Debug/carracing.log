@@ -1,13 +1,14 @@
 ﻿  main.cpp
-C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(21,45): warning C4244: 'argument': conversion from 'const double' to 'unsigned int', possible loss of data
-C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(21,31): warning C4244: 'argument': conversion from 'const double' to 'unsigned int', possible loss of data
-C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(25,51): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(151,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(151,21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(152,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(152,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(153,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(153,20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(159,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(160,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(18,7): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(22,45): warning C4244: 'argument': conversion from 'const double' to 'unsigned int', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(22,31): warning C4244: 'argument': conversion from 'const double' to 'unsigned int', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(26,51): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(143,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(143,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(144,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(144,33): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(145,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(145,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(147,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\carracing\main.cpp(148,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   carracing.vcxproj -> C:\Users\meraj\Dropbox\PC\Desktop\game\carracing\x64\Debug\carracing.exe
